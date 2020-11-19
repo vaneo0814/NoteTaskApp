@@ -1,0 +1,25 @@
+{
+  "name": "NoteTaskApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaneo0814/NoteTaskApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaneo0814/NoteTaskApp/issues"
+  },
+  "homepage": "https://github.com/vaneo0814/NoteTaskApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  }
+}
