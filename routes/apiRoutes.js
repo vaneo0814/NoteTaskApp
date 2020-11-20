@@ -41,9 +41,9 @@ module.exports = function(app) {
       if (err) throw err;
 
       const notes = JSON.parse(data);
-      notes.push(newNote); //is this right?
+      notes.push(newNote); 
 
-      writeFileAsync("data/db.json", JSON.stringify(notes), err =>{
+      writeFileAsync("data/db.json", JSON.stringify(notes), err => {
         if (err) throw err;
         res.send("data/db.json");
         console.log("New note created");
